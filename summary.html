@@ -1,0 +1,38 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <title>Summarizer</title>
+        <link rel="stylesheet" href="summary.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="AI study assistant, revision tool, summarize notes, quiz maker AI">
+        <meta name="description" content="Free AI Tutor for Students | Homework Help & Exam Prep">
+        <meta name="author" content="Michael Abisa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="processing.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <img src="Logo.png" width="60" height="60">
+            <p>Hi Bud!!</p>
+            <br>
+        </nav>
+    <div>
+        <article>
+            <h1>Enter text to be summarized </h1>
+        </article>
+        <section> 
+            <form > 
+                <textarea id="sum_input" name="sum_input" rows="10" cols="100" placeholder="Enter text..."></textarea>
+                <button type="button" onclick="summarize()" class="btn">Summarize</button>                
+            </form>
+
+        </section>
+        <section>
+            <p id="sum_output"></p>
+        </section>
+       
+    </div>
+        
+    </body>
+</html>
