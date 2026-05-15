@@ -1,0 +1,13 @@
+### dotenv ###
+.env
+
+### Python ###
+__pycache__/
+*.pyc
+
+### Virtual Environments ###
+venv/
+.env/
+
+### VS Code ###
+.vscode/
