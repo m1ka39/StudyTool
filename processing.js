@@ -7,13 +7,13 @@ async function summarize() {
             return;
         }
 
-        const response = await fetch("https://mikes-first-backend.onrender.com", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ text })
-        });
+        const response = await fetch("https://mikes-first-backend.onrender.com/summarize", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({ text })
+});
 
         const data = await response.json();
 
